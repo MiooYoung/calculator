@@ -1,6 +1,6 @@
-"""Calculator core functions for addition.
+"""Calculator core functions for addition and subtraction.
 
-This branch implements only the add(x, y) function.
+This module implements `add(x, y)` and `subtract(x, y)`.
 """
 
 def add(x, y):
@@ -14,3 +14,16 @@ def add(x, y):
         float|int: x + y
     """
     return x + y
+
+
+def subtract(x, y):
+    """Return the difference of two numbers (x - y).
+
+    Parameters:
+        x (float|int): first operand
+        y (float|int): second operand
+
+    Returns:
+        float|int: x - y
+    """
+    return x - y
